@@ -1,7 +1,7 @@
 package com.tencent.netty.client.console;
 
-import com.tencent.netty.common.protocol.request.LogoutRequestPacket;
-import com.tencent.netty.common.util.SessionUtil;
+import com.tencent.netty.protocol.request.LogoutRequestPacket;
+import com.tencent.netty.util.SessionUtil;
 import io.netty.channel.Channel;
 
 import java.util.Scanner;

@@ -1,12 +1,12 @@
 package com.tencent.netty.client;
 
-import com.tencent.netty.common.Handler.IMIdleStateHandler;
-import com.tencent.netty.common.Handler.PacketCodecHandler;
+import com.tencent.netty.Handler.IMIdleStateHandler;
+import com.tencent.netty.Handler.PacketCodecHandler;
 import com.tencent.netty.client.console.ConsoleCommandManager;
 import com.tencent.netty.client.console.LoginConsoleCommand;
 import com.tencent.netty.client.handler.*;
-import com.tencent.netty.common.codec.Spliter;
-import com.tencent.netty.common.util.SessionUtil;
+import com.tencent.netty.codec.Spliter;
+import com.tencent.netty.util.SessionUtil;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;

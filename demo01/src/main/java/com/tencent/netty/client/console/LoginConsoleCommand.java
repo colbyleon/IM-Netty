@@ -1,6 +1,6 @@
 package com.tencent.netty.client.console;
 
-import com.tencent.netty.common.protocol.request.LoginRequestPacket;
+import com.tencent.netty.protocol.request.LoginRequestPacket;
 import io.netty.channel.Channel;
 
 import java.util.Scanner;

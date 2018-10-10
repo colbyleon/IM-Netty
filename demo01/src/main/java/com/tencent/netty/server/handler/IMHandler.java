@@ -1,6 +1,6 @@
 package com.tencent.netty.server.handler;
 
-import com.tencent.netty.common.protocol.Packet;
+import com.tencent.netty.protocol.Packet;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -8,7 +8,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.tencent.netty.common.protocol.command.Command.*;
+import static com.tencent.netty.protocol.command.Command.*;
 
 /**
  * @author v_xiangbluo

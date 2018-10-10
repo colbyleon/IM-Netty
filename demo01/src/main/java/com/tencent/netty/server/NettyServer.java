@@ -1,8 +1,8 @@
 package com.tencent.netty.server;
 
-import com.tencent.netty.common.Handler.IMIdleStateHandler;
-import com.tencent.netty.common.Handler.PacketCodecHandler;
-import com.tencent.netty.common.codec.Spliter;
+import com.tencent.netty.Handler.IMIdleStateHandler;
+import com.tencent.netty.Handler.PacketCodecHandler;
+import com.tencent.netty.codec.Spliter;
 import com.tencent.netty.server.handler.*;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelInitializer;

@@ -1,9 +1,9 @@
 package com.tencent.netty.server.handler;
 
-import com.tencent.netty.common.protocol.request.MessageReqPacket;
-import com.tencent.netty.common.protocol.response.MessageResponsePacket;
-import com.tencent.netty.common.session.Session;
-import com.tencent.netty.common.util.SessionUtil;
+import com.tencent.netty.protocol.request.MessageReqPacket;
+import com.tencent.netty.protocol.response.MessageResponsePacket;
+import com.tencent.netty.session.Session;
+import com.tencent.netty.util.SessionUtil;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;

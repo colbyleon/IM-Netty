@@ -1,7 +1,7 @@
 package com.tencent.netty.server.handler;
 
-import com.tencent.netty.common.protocol.request.HeartBeatRequestPacket;
-import com.tencent.netty.common.protocol.response.HeartBeatResponsePacket;
+import com.tencent.netty.protocol.request.HeartBeatRequestPacket;
+import com.tencent.netty.protocol.response.HeartBeatResponsePacket;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

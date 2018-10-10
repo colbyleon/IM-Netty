@@ -1,8 +1,8 @@
 package com.tencent.netty.client.handler;
 
-import com.tencent.netty.common.protocol.response.LoginResponsePacket;
-import com.tencent.netty.common.session.Session;
-import com.tencent.netty.common.util.SessionUtil;
+import com.tencent.netty.protocol.response.LoginResponsePacket;
+import com.tencent.netty.session.Session;
+import com.tencent.netty.util.SessionUtil;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

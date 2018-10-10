@@ -1,6 +1,6 @@
 package com.tencent.netty.client.handler;
 
-import com.tencent.netty.common.protocol.response.LogoutResponsePacket;
+import com.tencent.netty.protocol.response.LogoutResponsePacket;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

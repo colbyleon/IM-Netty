@@ -1,6 +1,6 @@
 package com.tencent.netty.client.handler;
 
-import com.tencent.netty.common.protocol.response.QuitGroupResponsePacket;
+import com.tencent.netty.protocol.response.QuitGroupResponsePacket;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

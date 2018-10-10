@@ -1,6 +1,6 @@
 package com.tencent.netty.client.console;
 
-import com.tencent.netty.common.protocol.request.ListGroupMembersRequestPacket;
+import com.tencent.netty.protocol.request.ListGroupMembersRequestPacket;
 import io.netty.channel.Channel;
 
 import java.util.Scanner;
