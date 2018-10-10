@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <toGroupId>com.tencent.netty</toGroupId>
+    <artifactId>netty-demo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>demo01</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <toGroupId>io.netty</toGroupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.6.Final</version>
+        </dependency>
+        <dependency>
+            <toGroupId>junit</toGroupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <toGroupId>com.alibaba</toGroupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.46</version>
+        </dependency>
+        
+        <!-- baidu封装的protobuf序列化 -->
+        <dependency>
+            <toGroupId>com.baidu</toGroupId>
+            <artifactId>jprotobuf</artifactId>
+            <version>2.2.5</version>
+        </dependency>
+    </dependencies>
+</project>
