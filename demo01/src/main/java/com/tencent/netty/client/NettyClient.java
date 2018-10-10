@@ -1,5 +1,6 @@
 package com.tencent.netty.client;
 
+
 import com.tencent.netty.Handler.IMIdleStateHandler;
 import com.tencent.netty.Handler.PacketCodecHandler;
 import com.tencent.netty.client.console.ConsoleCommandManager;
@@ -14,7 +15,6 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.util.AttributeKey;
 
 import java.util.Date;
 import java.util.Scanner;
@@ -30,8 +30,9 @@ public class NettyClient {
     private static final Bootstrap BOOTSTRAP;
 
     static {
-        BOOTSTRAP =  new Bootstrap();
+        BOOTSTRAP = new Bootstrap();
     }
+
     /**
      * 重连
      */

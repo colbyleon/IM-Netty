@@ -1,5 +1,6 @@
 package com.tencent.netty.serialize;
 
+
 import com.tencent.netty.serialize.impl.JSONSerializer;
 
 /**
